@@ -1,0 +1,38 @@
+html, body {
+  width:  100%;
+  height: 100%;
+  margin: 0;
+
+  /* Disable scrollbar */
+  overflow: hidden;
+  font-family: "sans-serif";
+}
+
+#Layton {
+  image-rendering: crisp-edges;
+}
+
+#Settings {
+  position: absolute;
+  margin-top: 1.5em;
+  right: 2em;
+}
+
+#SettingsTitle {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#AntDefinition {
+  width: 10em;
+}
+
+#JumpValueLabel, #IntervalValueLabel {
+  position: absolute;
+  right: 0;
+  margin-left: 1em;
+}
+
+#ShowAntCheck {
+  float: right;
+}
